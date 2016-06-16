@@ -14,10 +14,10 @@
 
 
     <EditText
-        android:layout_width="wrap_content"
+        style="@style/TextField"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="numberDecimal"
-        android:textColor="#ffffff"
+        android:text="@string/zero"
         android:id="@+id/editText" />
 
     <LinearLayout
